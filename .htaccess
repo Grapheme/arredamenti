@@ -1,0 +1,17 @@
+AddDefaultCharset utf-8
+Options +FollowSymLinks
+Options -Indexes
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www\.arredamenti\.su$ [NC]
+RewriteRule ^(.*)$ http://arredamenti.su/$1 [R=301,L]
+
+#RewriteRule ^index.php/(.*)$ /$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|images|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
