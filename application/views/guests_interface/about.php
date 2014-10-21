@@ -37,7 +37,7 @@
 					<li class="fellow-company-item js_animate_top">
 						<div class="delicate-design-stroke"></div>
 						<div class="fellow-company-logo">
-							<a href="<?=(!empty($brends[$i]['site'])?$brends[$i]['site']:'#');?>">
+							<a target="_blank" href="<?=(!empty($brends[$i]['site'])?$brends[$i]['site']:'#');?>">
 								<img src="<?=baseURL($brends[$i]['logo']);?>" title="<?=$brends[$i][$this->uri->language_string.'_title'];?>">
 							</a>
 						</div>
