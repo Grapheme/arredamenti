@@ -19,9 +19,37 @@
 	<?php $this->load->view('guests_interface/includes/small-menu') ?>
 	<div class="index-wrapper">
 		<div class="__fotorama">
+			<!--
 			<div class="applead__item applead__item_1">
-				<img alt="" src="http://arredamenti.su/img/akcii.jpg">
+
+				<div style="background-image: url(http://arredamenti.su/img/a_1.jpg);" class="applead__part">
+				    <div class="applead__part__head">
+				      	В нашем салоне<br>становится светлее
+				    </div>
+				    <div class="applead__part__body">
+				      	Скидка до 30%<br> на люстры и светильники
+				    </div>
+				</div>
+
+				<div style="background-image: url(http://arredamenti.su/img/a_2.jpg);" class="applead__part">
+				   	<div class="applead__part__head">
+				   		Подарите сказку <br> вашим детям
+				   	</div>
+					<div class="applead__part__body">
+					    Скидка до 25% на мебель<br> для детских комнат
+				    </div>
+				</div>
+				
+				<div style="background-image: url(http://arredamenti.su/img/a_3.jpg);" class="applead__part">
+				    <div class="applead__part__head">
+					    Создайте кухню<br> своей мечты
+				    </div>
+				    <div class="applead__part__body">
+				    	На итальянские кухни фабрики<br> Doimo Cucine скидка 25%
+				    </div>
+				</div>
 			</div>
+			-->
 		<?php for($i=0;$i<count($images);$i++):?>
 			<div class="applead__item applead__item_<?=($i%2 == 0)? '1': '2';?>">
 				<!--<h2>
