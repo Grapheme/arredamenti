@@ -50,7 +50,7 @@
 				</div>
 			</div>
 			-->
-		<?php for($i=0;$i<count($images);$i++):?>
+		<?php for($i=1;$i<count($images);$i++):?>
 			<div class="applead__item applead__item_<?=($i%2 == 0)? '1': '2';?>">
 				<!--<h2>
 					<a href="<?=base_url('catalog/sale/arredamenti-sale')?>" style="text-decoration: none; color: <?=($i == 3 || $i == 1 || $i == 0)? '#000;': '#fff';?>">
