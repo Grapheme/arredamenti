@@ -168,6 +168,15 @@
 				</div>
 			</div>
 <?*/?>
+	<div class="ext-block">
+		<a href="http://rnd.myarredo.ru" class="block__image"></a>
+		<a href="http://rnd.myarredo.ru" class="block__title"></a>
+		<div class="block__text">
+			<a href="http://rnd.myarredo.ru">rnd.myarredo.ru</a><br>
+			«Арредаменти»<br>
+			дарим радость быть дома! 
+		</div>
+	</div>
 	</div>
 	<?php $this->load->view('guests_interface/includes/scripts');?>
 	<script src="<?=baseURL('js/vendor/fotorama.js');?>"></script>
