@@ -982,7 +982,7 @@ nav .nav-sublist-item a:hover { color: #000; border-bottom: 3px solid #000; }
 	position: absolute;
 	bottom: 40px;
 	right: 0;
-	width: 100px;
+	width: 200px;
 	-webkit-transform: translateX(100%);
 	        transform: translateX(100%);
 	transition: all .5s ease;
@@ -992,7 +992,7 @@ nav .nav-sublist-item a:hover { color: #000; border-bottom: 3px solid #000; }
 	transform: translateX(0);
 }
 
-.ext-block .block-image {
+.ext-block .block__image {
 	display: inline-block;
 	position: absolute;
 	left: -49px;
@@ -1014,8 +1014,12 @@ nav .nav-sublist-item a:hover { color: #000; border-bottom: 3px solid #000; }
 	background: #545451;
 	color: #fff;
 	font-size: 14px;
+	line-height: 1.6;
+	font-weight: 300;
 }
 
 .ext-block .block__text a {
 	color: #9e9e9e;
 }
+
+.fotorama__thumbs { bottom: 5% !important; }
